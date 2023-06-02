@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-:root {
-  --primary: "#134A45";
-  --ping: "#B961CD";
-  --blue: "#96C9E9";
-}
+$primary: #134a45;
+$blue: "#96C9E9";
+$ping: "#B961CD";
 
 * img {
   display: block;
@@ -13,5 +11,6 @@
 
 body {
   font-family: Roboto, sans-serif;
+  color: $primary;
   font-weight: 400;
 }
