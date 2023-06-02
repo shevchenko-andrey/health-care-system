@@ -1,0 +1,159 @@
+.footer {
+  background: #134a45;
+  color: #cfd4d8;
+
+  &__container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  &__rights {
+    padding: 70px 50px;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+    color: rgba(203, 208, 213, 0.73);
+  }
+}
+
+.top__block {
+  @media screen and (min-width: 1100px) {
+    display: flex;
+    justify-content: space-between;
+    padding: 94px 50px;
+  }
+}
+
+.news__title {
+  font-size: 45px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+  font-weight: 400;
+}
+
+.news__description {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: rgba(203, 208, 213, 0.73);
+  margin-bottom: 38px;
+  width: 392px;
+}
+
+.subscribe__btn {
+  cursor: pointer;
+  background: #b961cd;
+  border-color: #b961cd;
+  display: flex;
+  font-size: 15px;
+  line-height: 30px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 50px;
+}
+
+.review__board {
+  background: #0c3834;
+  padding: 30px 33px;
+  color: #cfd4d8;
+  max-width: 550px;
+  @media screen and (min-width: 1100px) {
+    display: flex;
+
+    img {
+      width: 240px;
+    }
+  }
+}
+
+.blog {
+  margin-left: 32px;
+}
+
+.blog__title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(203, 208, 213, 0.57);
+  margin-bottom: 15px;
+}
+
+.blog__description {
+  max-width: 194px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: #cfd4d8;
+  margin-bottom: 43px;
+}
+
+.read__link {
+  font-size: 15px;
+  line-height: 13px;
+  letter-spacing: 0.2px;
+  color: #cfd4d8;
+}
+
+.divider {
+  width: 768px;
+  height: 1px;
+  background: #2c6862;
+  margin: 0 auto;
+}
+
+.bottom__block {
+  @media screen and (min-width: 1100px) {
+    padding: 78px 50px 70px 50px;
+    display: flex;
+  }
+}
+
+.footer__description {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: rgba(203, 208, 213, 0.73);
+  margin-right: 206px;
+  margin-top: 66px;
+}
+
+.social__media {
+  margin-right: 76px;
+  margin-top: 42px;
+}
+
+.social__item {
+  margin-bottom: 18px;
+  width: 23px;
+  height: 23px;
+}
+
+.activities {
+  margin-right: 66px;
+
+  &__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #cfd4d8;
+    margin-bottom: 19px;
+  }
+}
+
+.activity {
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.15px;
+  color: rgba(203, 208, 213, 0.73);
+  margin-bottom: 3px;
+}

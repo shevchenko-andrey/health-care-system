@@ -1,16 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 $primary: #134a45;
-$blue: "#96C9E9";
-$ping: "#B961CD";
 
-* img {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
   display: block;
   width: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
 }
 
 body {
   font-family: Roboto, sans-serif;
   color: $primary;
   font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 1100px) {
+  .container {
+    padding: 0px 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
 }
