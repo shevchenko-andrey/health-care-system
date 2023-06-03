@@ -1,37 +1,38 @@
 import ontrakImage from "../../assets/ontrak.png";
 import pivotalImage from "../../assets/pivotal.png";
+import { Section } from "../Section";
 import "./Organizations.scss";
 
 export const Organizations: React.FC = () => {
   return (
-    <section className='organizations-section'>
-      <div className='container organizations-section__container'>
+    <Section bg='secondary'>
+      <div className='organizations-section'>
         <p className='organizations-section__description'>
           Powering inclusive care for the industry's leading organizations.
         </p>
         <ul className='organizations-section__list'>
-          <li>
+          <li className='organizations-section__item'>
             <img
               className='organizations-section__img'
               src={ontrakImage}
               alt='Ontrack'
             />
           </li>
-          <li>
+          <li className='organizations-section__item'>
             <img
               className='organizations-section__img'
               src={ontrakImage}
               alt=''
             />
           </li>
-          <li>
+          <li className='organizations-section__item'>
             <img
               className='organizations-section__img'
               src={pivotalImage}
               alt=''
             />
           </li>
-          <li>
+          <li className='organizations-section__item'>
             <img
               className='organizations-section__img'
               src={pivotalImage}
@@ -40,6 +41,6 @@ export const Organizations: React.FC = () => {
           </li>
         </ul>
       </div>
-    </section>
+    </Section>
   );
 };

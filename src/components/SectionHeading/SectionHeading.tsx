@@ -2,7 +2,7 @@ import "./SectionHeading.scss";
 
 interface ISectionHeadingProps {
   children: React.ReactNode;
-  color?: "white" | "primary";
+  color?: "secondary" | "primary";
 }
 
 export const SectionHeading: React.FC<ISectionHeadingProps> = ({
