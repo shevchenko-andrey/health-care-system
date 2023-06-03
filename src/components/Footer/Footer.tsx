@@ -36,50 +36,60 @@ export const Footer = () => {
         </div>
         <div className='divider'></div>
         <div className='bottom__block'>
-          <p className='footer__description'>
-            Powering culturally competent care at scale.
-          </p>
-          <ul className='social__media'>
-            <li className='social__item'>
-              <a href=''>
-                <Linkedin />
-              </a>
-            </li>
-            <li className='social__item'>
-              <a href=''>
-                <Twitter />
-              </a>
-            </li>
-          </ul>
-          <div className='activities'>
-            <h3 className='activities__title'>What we do</h3>
-            <ul className='activities__list'>
-              <li className='activity'>Credentialing</li>
-              <li className='activity'>Upskilling</li>
-              <li className='activity'>Customers</li>
-              <li className='activity'>Log In</li>
+          <div className='top-wrapper'>
+            <p className='footer__description'>
+              Powering culturally competent care at scale.
+            </p>
+            <ul className='social__media'>
+              <li className='social__item'>
+                <a href=''>
+                  <Linkedin />
+                </a>
+              </li>
+              <li className='social__item'>
+                <a href=''>
+                  <Twitter />
+                </a>
+              </li>
             </ul>
           </div>
-          <div className='activities'>
-            <h3 className='activities__title'>About us</h3>
-            <ul className='activities__list'>
-              <li className='activity'>Our mission</li>
-              <li className='activity'>Our team</li>
-              <li className='activity'>Our educators</li>
-              <li className='activity'>Careers</li>
-              <li className='activity'>Blog</li>
-              <li className='activity'>Newsletter</li>
-            </ul>
-          </div>
+          <div className='activities-block'>
+            <div className='activities'>
+              <div className='activities__wrapper'>
+                <h3 className='activities__title'>What we do</h3>
+                <ul className='activities__list'>
+                  <li className='activity'>Credentialing</li>
+                  <li className='activity'>Upskilling</li>
+                  <li className='activity'>Customers</li>
+                  <li className='activity'>Log In</li>
+                </ul>
+              </div>
+            </div>
+            <div className='activities'>
+              <div className='activities__wrapper'>
+                <h3 className='activities__title'>About us</h3>
+                <ul className='activities__list'>
+                  <li className='activity'>Our mission</li>
+                  <li className='activity'>Our team</li>
+                  <li className='activity'>Our educators</li>
+                  <li className='activity'>Careers</li>
+                  <li className='activity'>Blog</li>
+                  <li className='activity'>Newsletter</li>
+                </ul>
+              </div>
+            </div>
 
-          <div className='activities'>
-            <h3 className='activities__title'>Contact</h3>
-            <ul className='activities__list'>
-              <li className='activity'>Press</li>
-              <li className='activity'>Contact</li>
-              <li className='activity'>Privacy</li>
-              <li className='activity'>Terms of service</li>
-            </ul>
+            <div className='activities'>
+              <div className='activities__wrapper'>
+                <h3 className='activities__title'>Contact</h3>
+                <ul className='activities__list'>
+                  <li className='activity'>Press</li>
+                  <li className='activity'>Contact</li>
+                  <li className='activity'>Privacy</li>
+                  <li className='activity'>Terms of service</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <div className='footer__rights'>

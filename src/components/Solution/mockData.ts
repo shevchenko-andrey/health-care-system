@@ -6,7 +6,7 @@ interface ISolution {
   title: string;
   description: string;
   tips: string;
-  image: any;
+  image: string;
   bg: "primary" | "blue";
 }
 

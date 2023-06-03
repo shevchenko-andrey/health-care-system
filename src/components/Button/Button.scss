@@ -1,0 +1,29 @@
+.button {
+  font-size: 15px;
+  line-height: 2;
+  max-width: 221px;
+  color: #fff;
+  background-color: #134a45;
+  padding-left: 25px;
+  padding-right: 68px;
+
+  &.primary {
+    background-color: $primary;
+    color: $secondary;
+  }
+
+  &.secondary {
+    background-color: $secondary;
+    color: $primary;
+  }
+
+  &.white {
+    background-color: #fff;
+    color: $primary;
+  }
+
+  &.pink {
+    background-color: $pink;
+    color: $secondary;
+  }
+}

@@ -1,20 +1,29 @@
 import manWithGlassesImage from "../../assets/man-with-glasses.png";
 import oldManImage from "../../assets/old-man.png";
-import oldWoManImage from "../../assets/old-woman.png";
+import oldWomanImage from "../../assets/old-woman.png";
+import { Button } from "../Button";
+import { Section } from "../Section";
+import { Title } from "../Title";
 import "./Hero.scss";
 
 export const Hero: React.FC = () => {
   return (
-    <section className='hero-section'>
-      <div className='container hero-section__container'>
+    <Section bg='white'>
+      <div className='hero-section'>
         <div className='hero-section__left-wrapper'>
-          <h1 className='hero-section__title'>Deliver more inclusive care.</h1>
+          <Title as='h1'>Deliver more inclusive care.</Title>
           <p>Violet powers culturally competent care at scale.</p>
-          <p className='hero-section__accent'>Power your team</p>
+          <Button
+            onClick={() => {
+              throw new Error("Function not implemented.");
+            }}
+          >
+            Power your team
+          </Button>
         </div>
         <div className='hero-section__right-wrapper'>
           <div className='hero-section__image--large'>
-            <img src={oldWoManImage} alt='Old woman' />
+            <img src={oldWomanImage} alt='Old woman' />
           </div>
           <div className='hero-section__image--small'>
             <img src={manWithGlassesImage} alt='Man with glasses' />
@@ -24,6 +33,6 @@ export const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

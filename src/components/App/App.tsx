@@ -1,26 +1,27 @@
+import { Footer } from "../Footer";
 import { Header } from "../Header";
-import { Solution } from "../Solution";
+import { Hero } from "../Hero";
 
 export const App = () => {
   return (
     <>
       <Header />
 
-      {/* <Hero />
+      <Hero />
 
-      <Organizations />
+      {/* <Organizations />
 
-      <StopRacism /> */}
+      <StopRacism />
 
       <Solution />
 
-      {/* <Competence />
+      <Competence />
 
       <DeliveryTeam />
 
-      <Demo />
+      <Demo /> */}
 
-      <Footer /> */}
+      <Footer />
     </>
   );
 };
