@@ -4,7 +4,7 @@ import "./Title.scss";
 
 interface TitleProps {
   children: ReactNode;
-  color?: "primary" | "white";
+  color?: "primary" | "secondary";
   position?: "left" | "center" | "right";
   as?: "h1" | "h2" | "h3" | "h4";
 }

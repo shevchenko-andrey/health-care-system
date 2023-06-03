@@ -4,6 +4,7 @@ import { Title } from "../Title";
 
 import "./Solution.scss";
 import { SolutionCard } from "./SolutionCard";
+import { solutions } from "./mockData";
 
 export const Solution: React.FC = () => {
   return (
@@ -18,8 +19,16 @@ export const Solution: React.FC = () => {
         </div>
 
         <div className='solution-section__bottom'>
-          <SolutionCard title={``} image={``} description={``} tips={``} />
-          <SolutionCard title={""} image={""} description={""} tips={""} />
+          {solutions.map(({ id, description, image, tips, title, bg }) => (
+            <SolutionCard
+              key={id}
+              description={description}
+              image={image}
+              tips={tips}
+              title={title}
+              bg={bg}
+            />
+          ))}
         </div>
       </div>
     </Section>
