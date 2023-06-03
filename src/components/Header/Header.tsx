@@ -5,7 +5,7 @@ import "./Header.scss";
 export const Header: React.FC = () => {
   return (
     <header className='header'>
-      <div className='header__container'>
+      <div className='container header__container'>
         <Burger className='header__burger-menu' />
         <nav className='header__navigation nav'>
           <ul className='nav__list'>
