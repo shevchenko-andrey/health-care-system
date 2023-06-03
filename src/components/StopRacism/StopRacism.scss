@@ -1,0 +1,65 @@
+.issues-section {
+  background: #134a45;
+  color: #fff;
+  padding-top: 18px;
+  padding-bottom: 100px;
+
+  &__top {
+    background-color: #b961cd;
+    padding: 24px;
+    margin-bottom: 18px;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__content-wrapper {
+    width: 50%;
+    padding-top: 112px;
+  }
+
+  &__text {
+    max-width: 285px;
+    color: #fff;
+  }
+
+  &__text-bottom {
+    font-size: 17px;
+    line-height: 1.65;
+    letter-spacing: 0.2px;
+    color: rgba(229, 232, 235, 0.69);
+
+    width: 456px;
+  }
+
+  &__title {
+    font-size: 46px;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    color: #e5e8eb;
+    width: 393px;
+    margin-bottom: 30px;
+  }
+
+  &__image {
+    width: 50%;
+    height: 660px;
+  }
+
+  &__ascent {
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+}
