@@ -1,9 +1,9 @@
 import { ReactNode } from "react";
 import { Container } from "../Container";
-
+import "./Section.scss";
 interface SectionProps {
   children: ReactNode;
-  bg: "white" | "secondary" | "primary" | "blue";
+  bg?: "white" | "secondary" | "primary" | "blue";
 }
 
 export const Section: React.FC<SectionProps> = ({

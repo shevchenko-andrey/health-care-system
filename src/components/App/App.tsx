@@ -1,30 +1,26 @@
-import Competence from "../Competence/Competence";
-import DeliveryTeam from "../DeliveryTeam/DeliveryTeam";
-import { Demo } from "../Demo";
-import { Footer } from "../Footer";
 import { Header } from "../Header";
-import { Hero } from "../Hero";
-import { Organizations } from "../Organizations";
-import { StopRacism } from "../StopRacism";
+import { Solution } from "../Solution";
 
 export const App = () => {
   return (
     <>
       <Header />
 
-      <Hero />
+      {/* <Hero />
 
       <Organizations />
 
-      <StopRacism />
+      <StopRacism /> */}
 
-      <Competence />
+      <Solution />
+
+      {/* <Competence />
 
       <DeliveryTeam />
 
       <Demo />
 
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
