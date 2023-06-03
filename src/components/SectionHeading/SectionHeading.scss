@@ -1,0 +1,14 @@
+.heading {
+  font-size: 13px;
+  line-height: 1.54;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  &.white {
+    color: #fff;
+  }
+
+  &.primary {
+    color: $primary;
+  }
+}

@@ -1,0 +1,17 @@
+.section {
+  &.white {
+    background: #fff;
+  }
+
+  &.primary {
+    background: $primary;
+  }
+
+  &.secondary {
+    background: $secondary;
+  }
+
+  &.blue {
+    background: $blue;
+  }
+}
