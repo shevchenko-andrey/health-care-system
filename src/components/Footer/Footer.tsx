@@ -1,6 +1,7 @@
 import { ReactComponent as Linkedin } from "../../assets/linkedin.svg";
 import ReviewBoard from "../../assets/review-board.png";
 import { ReactComponent as Twitter } from "../../assets/twitter.svg";
+import { Button } from "../Button";
 import { Container } from "../Container";
 import "./Footer.scss";
 
@@ -16,10 +17,18 @@ export const Footer = () => {
                 Violet's health equity newsletter includes the latest industry
                 news, cultural competence education, and company updates.
               </p>
-              <button className='subscribe__btn'>Subscribe</button>
+              <Button
+                bg='pink'
+                onClick={function (): void {
+                  throw new Error("Function not implemented.");
+                }}
+              >
+                Subscribe
+              </Button>
             </div>
             <div className='review__board'>
               <img
+                className='review__image'
                 src={ReviewBoard}
                 alt='review board'
                 width='240px'
